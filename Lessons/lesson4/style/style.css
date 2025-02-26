@@ -1,0 +1,99 @@
+#bottom{
+    background-color: red;
+    color: black;
+}
+
+h1 {
+    background-color: rgb(8, 131, 12);
+    color: rgb(17, 1, 1);
+}
+p {
+    background-color: rgb(22, 22,22);
+    color: rgb(233, 233, 221);
+}
+
+h3,h4,h5 {
+    background-color: tomato;
+    color: white;
+}
+
+span{
+    background-color: blue;
+    color: yellow;
+}
+
+div span{
+    background-color: green;
+    color: red;
+}
+
+p span{
+    background-color: orange;
+    color: black;
+    text-transform: none; /*Not correct if u need always change*/
+}
+
+*{
+    text-transform: uppercase;
+}
+
+.style-text{
+    font-size: 25px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.text-decor{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.style-text.text-decor{
+    border: 4px solid black;
+}
+
+div.style-text{
+    padding: 100px;
+}
+
+.user-button{
+    background-color: green;
+    color: white;
+}
+
+.user-button:hover{
+    background-color: blue;
+    color: yellow;
+}
+
+li{
+    background-color: gray;
+    color: white;
+}
+
+/*.first_element{
+    background-color: black;
+}
+
+.last_element{
+    background-color: red;
+}*/
+
+.product-list li:first-child{
+    background-color: black;
+}
+
+.product-list li:last-child{
+    background-color: red;
+}
+
+.product-list li:nth-child(3){
+    background-color: blue;
+}
+
+a[target="_blank"]{
+    background-color: yellow;
+    color: black;
+}
+/*DRY Don't repeat your self!*/
+
