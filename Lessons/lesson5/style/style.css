@@ -1,0 +1,58 @@
+*{
+box-sizing: border-box;
+}
+header{
+    background-color: orange;
+    padding: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}
+p{
+    width: 200px;
+    margin: 0 auto;
+    font-size: 32px;
+}
+.up{
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    border: 2px solid red;
+    display: inline-block;
+    padding: 20px;
+    position: fixed;
+    /*left: 50px;
+    top: 200px;*/
+    right: 50px;
+    bottom: 80px;
+}
+.up:hover{
+    background-color: white;
+    color: black;
+}
+
+.abs{
+    padding: 50px;
+    position: absolute;
+
+}
+.one{
+    background-color: blue;
+    top: 150px;
+    left: 50px;
+    z-index: 7;
+
+}
+.second{
+    background-color: yellow;
+    top: 250px;
+    left: 150px;
+    z-index: 7;
+}
+.pos-r{
+    position: relative;
+    width: 800px;
+    margin: 50px auto;
+    background-color: green;
+}
